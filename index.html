@@ -71,7 +71,9 @@
       }, category)
     }
 
-    fetch('static/medium.json')
+    const blog = 'https://sedarity.lib.id/disassemble-blog/fetch-blog-json'
+
+    fetch(blog)
       .then(data => data.json())
       .then(data => {
         data.stories.sort((a, b) => {
