@@ -1,0 +1,114 @@
+<html lang=en>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="static/styles/font-awesome.min.css">
+  <link rel="stylesheet" href="static/styles/bootstrap.min.css">
+  <link rel="stylesheet" href="static/styles/blog.css">
+</head>
+
+<body>
+  <script src="static/scripts/jquery.min.js"></script>
+  <script src="static/scripts/bootstrap.min.js"></script>
+  <script src="static/scripts/hyperapp.js"></script>
+  <script src="static/scripts/hyperapp-html.js"></script>
+  <script>
+    const { h, app } = hyperapp
+    const { div, a, span, i } = html
+
+    const state = {}
+    const actions = {}
+
+    let filter = null
+
+    let params = new URL(window.location.href).searchParams
+    let category = params.get('category')
+
+    if (category) {
+      filter = (story) => {
+        return story.categories.includes(category)
+      }
+    }
+
+    let stripCategories = (data) => {
+      let categories = []
+      for (let story of data.stories) {
+        for (let category of story.categories) {
+          if (categories.indexOf(category) === -1) {
+            categories.push(category)
+          }
+        }
+      }
+      return categories
+    }
+
+    const Story = (story) => {
+      let prettyDate = new Date(story.updated).toLocaleDateString();
+      return div({class: 'row row-centered'}, [
+        div({class: 'preview'}, [
+          span({class: 'preview-title'}, story.title),
+          div({class: 'preview-post', innerHTML: story.content}),
+          a({class: 'preview-read', href: story.link}, [
+            span('Read more...'),
+            i({class: 'fa fa-external-link'})
+          ]),
+          span({class: 'preview-date'}, prettyDate),
+          div({class: 'row preview-categories'}, [
+            story.categories.map(category => {
+              return a({
+                class: 'preview-category', href: `index.html?category=${category}`
+              }, category)
+            })
+          ])
+        ])
+      ])
+    }
+
+    const Category = (category) => {
+      return a({
+        class: 'preview-tag', href: `index.html?category=${category}`
+      }, category)
+    }
+
+    fetch('static/medium.json')
+      .then(data => data.json())
+      .then(data => {
+        data.stories.sort((a, b) => {
+          let aDate = new Date(a.published)
+          let bDate = new Date(b.published)
+          return bDate.getTime() - aDate.getTime()
+        })
+        let categories = stripCategories(data)
+        const view = (state, actions) => (
+          div({class: 'container'}, [
+            div({class: 'row row-centered'}, [
+              div({id: 'logo'}, [
+                a({href: '/'}, [
+                  span({class: 'logo-left'}, 'disassemble'),
+                  span('.'),
+                  span({class: 'logo-right'}, 'io')
+                ])
+              ])
+            ]),
+            div({class: 'row row-centered'}, [
+              div({class: 'preview-section'}, 'Latest')
+            ]),
+            data.stories.map(story => {
+              if (filter == null || filter(story)) {
+                return Story(story)
+              } else {
+                return div()
+              }
+            }),
+            div({class: 'row row-centered'}, [
+              div({class: 'preview-tags text-center'}, [
+                categories.map(category => Category(category))
+              ])
+            ])
+          ])
+        )
+        app(state, actions, view, document.body)
+      })
+  </script>
+</body>
