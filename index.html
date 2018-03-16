@@ -71,9 +71,13 @@
       }, category)
     }
 
-    const blog = 'https://sedarity.lib.id/disassemble-blog/fetch-blog-json'
+    const blog = 'https://tyler-personal.storage.googleapis.com/disassemble-medium.json'
 
-    fetch(blog)
+    fetch(blog, {
+      headers: new Headers({
+        'Origin': 'https://disassemble.io/'
+      })
+    })
       .then(data => data.json())
       .then(data => {
         data.stories.sort((a, b) => {
