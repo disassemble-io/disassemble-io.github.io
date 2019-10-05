@@ -13,8 +13,3 @@ permalink: pretty
 
 plugins:
   - jekyll-optional-front-matter
-
-collections:
-  docs:
-    output: true
-    permalink: /docs/:path
