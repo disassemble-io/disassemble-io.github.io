@@ -6,3 +6,5 @@
 
 Overrides [ClassMemberInsn.desc](../-class-member-insn/desc.md)
 
+The descriptor of this member.
+

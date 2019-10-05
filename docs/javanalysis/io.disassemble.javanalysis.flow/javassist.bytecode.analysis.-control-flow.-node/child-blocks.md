@@ -4,9 +4,5 @@
 
 `val Node.childBlocks: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<Node>`
 
-**Author**
-Tyler Sedlar
-
-**Since**
-3/30/2018
+Gets the child blocks that belong to this [ControlFlow.Node](#).
 

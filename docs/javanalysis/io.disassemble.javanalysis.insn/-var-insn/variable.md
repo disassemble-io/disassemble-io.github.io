@@ -3,3 +3,6 @@
 # variable
 
 `var variable: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+The variable on the stack.
+

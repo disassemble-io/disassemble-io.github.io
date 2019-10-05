@@ -3,3 +3,6 @@
 # tag
 
 `val tag: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+The type of constant that this instruction is
+

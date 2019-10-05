@@ -3,3 +3,6 @@
 # parent
 
 `open var parent: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?`
+
+The parent member this instruction is pointed at.
+

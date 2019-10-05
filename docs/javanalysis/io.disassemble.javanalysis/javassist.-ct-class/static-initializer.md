@@ -3,3 +3,6 @@
 # staticInitializer
 
 `val CtClass.staticInitializer: CtMethod?`
+
+Gets a list of  for this [CtClass](#).
+

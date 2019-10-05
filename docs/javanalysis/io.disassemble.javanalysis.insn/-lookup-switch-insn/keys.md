@@ -3,3 +3,6 @@
 # keys
 
 `val keys: `[`IntArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int-array/index.html)
+
+The keys of this [LookupSwitchInsn](index.md).
+

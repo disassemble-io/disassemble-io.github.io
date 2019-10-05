@@ -3,3 +3,6 @@
 # allMethods
 
 `val CtClass.allMethods: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CtMethod>`
+
+Gets all of the [CtMethod](#) within this [CtClass](#).
+

@@ -3,3 +3,6 @@
 # owner
 
 `val CtMethod.owner: CtClass`
+
+The [CtClass](#) that this [CtMethod](#) is a part of.
+

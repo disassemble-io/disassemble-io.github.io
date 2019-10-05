@@ -4,9 +4,10 @@
 
 `MultiANewArrayInsn(owner: CtMethod, index: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`)`
 
-**Author**
-Tyler Sedlar
+A class representing a multianewarray instruction.
 
-**Since**
-5/20/2017
+### Parameters
 
+`owner` - The [CtMethod](#) that this instruction is a part of.
+
+`index` - The index of this instruction in [CtMethod](#).

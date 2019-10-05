@@ -3,3 +3,6 @@
 # wideIndex
 
 `var wideIndex: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+The index of the widened instruction.
+

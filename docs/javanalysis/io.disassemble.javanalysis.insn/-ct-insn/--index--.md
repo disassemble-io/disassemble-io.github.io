@@ -3,3 +3,6 @@
 # index
 
 `var index: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+The index of this instruction in [CtMethod](#).
+

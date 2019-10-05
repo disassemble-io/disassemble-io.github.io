@@ -3,3 +3,6 @@
 # previous
 
 `var previous: `[`CtInsn`](index.md)`?`
+
+The [CtInsn](index.md) that appears before this instruction.
+

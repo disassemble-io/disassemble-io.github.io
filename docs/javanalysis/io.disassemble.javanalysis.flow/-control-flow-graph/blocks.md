@@ -3,3 +3,6 @@
 # blocks
 
 `val blocks: `[`Array`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)`<Block>`
+
+The list of [ControlFlow.Block](#)s within this graph
+

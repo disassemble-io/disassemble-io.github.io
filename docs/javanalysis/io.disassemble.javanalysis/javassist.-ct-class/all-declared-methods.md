@@ -3,3 +3,6 @@
 # allDeclaredMethods
 
 `val CtClass.allDeclaredMethods: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CtMethod>`
+
+Gets all declared [CtMethod](#) within this [CtClass](#).
+

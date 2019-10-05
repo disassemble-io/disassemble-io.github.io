@@ -3,3 +3,6 @@
 # dominatorTree
 
 `val dominatorTree: `[`Array`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)`<Node>`
+
+Retrieves the dominator tree of this [ControlFlowGraph](index.md).
+
