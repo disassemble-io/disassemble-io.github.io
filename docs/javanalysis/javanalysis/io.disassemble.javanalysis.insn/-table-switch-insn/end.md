@@ -1,5 +1,0 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [TableSwitchInsn](index.md) / [end](./end.md)
-
-# end
-
-`val end: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
