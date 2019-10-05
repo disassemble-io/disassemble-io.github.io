@@ -3,3 +3,6 @@
 # dimensions
 
 `val dimensions: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+How many dimensions within this [MultiANewArrayInsn](index.md).
+

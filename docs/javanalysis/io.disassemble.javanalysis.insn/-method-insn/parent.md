@@ -6,3 +6,5 @@
 
 Overrides [ClassMemberInsn.parent](../-class-member-insn/parent.md)
 
+The parent member this instruction is pointed at.
+

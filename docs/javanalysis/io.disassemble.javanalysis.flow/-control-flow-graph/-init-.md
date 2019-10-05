@@ -4,6 +4,12 @@
 
 `ControlFlowGraph(flow: ControlFlow, blocks: `[`Array`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)`<Block>)`
 
+### Parameters
+
+`flow` - The [ControlFlow](#) for this graph to represent
+
+`blocks` - The list of [ControlFlow.Block](#)s within this graph
+
 **Author**
 Tyler Sedlar
 

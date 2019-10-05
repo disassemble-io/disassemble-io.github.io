@@ -3,3 +3,6 @@
 # indices
 
 `val indices: `[`IntArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int-array/index.html)
+
+The indices within this [TableSwitchInsn](index.md).
+

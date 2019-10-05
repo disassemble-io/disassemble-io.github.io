@@ -3,3 +3,6 @@
 # wideOp
 
 `var wideOp: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+The opcode to be widened.
+

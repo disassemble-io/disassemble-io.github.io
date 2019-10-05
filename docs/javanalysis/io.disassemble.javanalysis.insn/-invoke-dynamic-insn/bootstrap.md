@@ -3,3 +3,6 @@
 # bootstrap
 
 `var bootstrap: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+The bootstrap value of this instruction
+

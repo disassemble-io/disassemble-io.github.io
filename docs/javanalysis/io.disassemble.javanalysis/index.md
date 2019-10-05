@@ -6,7 +6,7 @@
 
 | Name | Summary |
 |---|---|
-| [InsnLine](-insn-line/index.md) | `class InsnLine` |
+| [InsnLine](-insn-line/index.md) | `class InsnLine`<br>A structure representing a line of code. Acts as a [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html) of [CtInsn](../io.disassemble.javanalysis.insn/-ct-insn/index.md). |
 
 ### Extensions for External Classes
 

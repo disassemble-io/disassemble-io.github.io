@@ -3,3 +3,6 @@
 # high
 
 `val high: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+The highest value within the [TableSwitchInsn](index.md).
+

@@ -3,3 +3,7 @@
 # &lt;init&gt;
 
 `InsnQuery()`
+
+A class representing a query.
+Used for filtering in lists.
+

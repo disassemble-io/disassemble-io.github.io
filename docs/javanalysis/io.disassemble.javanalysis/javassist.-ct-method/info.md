@@ -3,3 +3,6 @@
 # info
 
 `val CtMethod.info: MethodInfo`
+
+Gets the [MethodInfo](#) associated with this [CtMethod](#).
+

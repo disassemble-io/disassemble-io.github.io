@@ -3,3 +3,6 @@
 # type
 
 `var type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
+The type of this [TypeInsn](index.md).
+

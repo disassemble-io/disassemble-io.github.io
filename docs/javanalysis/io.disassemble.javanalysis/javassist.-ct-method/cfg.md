@@ -3,3 +3,6 @@
 # cfg
 
 `val CtMethod.cfg: `[`ControlFlowGraph`](../../io.disassemble.javanalysis.flow/-control-flow-graph/index.md)
+
+Gets the [ControlFlowGraph](../../io.disassemble.javanalysis.flow/-control-flow-graph/index.md) of this [CtMethod](#).
+

@@ -3,3 +3,6 @@
 # nameAndTypeIndex
 
 `val nameAndTypeIndex: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+The nameAndTypeIndex internally used with [javassist.bytecode.CodeIterator](#).
+

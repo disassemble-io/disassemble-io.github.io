@@ -3,3 +3,13 @@
 # check
 
 `fun check(insn: `[`CtInsn`](../../io.disassemble.javanalysis.insn/-ct-insn/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)
+
+Checks if this [InsnQuery](index.md)'s conditions are met by the given [CtInsn](../../io.disassemble.javanalysis.insn/-ct-insn/index.md).
+
+### Parameters
+
+`insn` - The [CtInsn](../../io.disassemble.javanalysis.insn/-ct-insn/index.md) to check against.
+
+**Return**
+true if the [InsnQuery.conditions](conditions.md) were met, otherwise false.
+

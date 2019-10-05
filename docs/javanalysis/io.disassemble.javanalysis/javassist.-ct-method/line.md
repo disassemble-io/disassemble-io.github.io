@@ -3,3 +3,6 @@
 # line
 
 `val CtMethod.line: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+Gets the line that this [CtMethod](#) starts on.
+

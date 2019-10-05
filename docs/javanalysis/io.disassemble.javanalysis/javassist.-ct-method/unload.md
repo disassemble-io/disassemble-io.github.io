@@ -3,3 +3,6 @@
 # unload
 
 `fun CtMethod.unload(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+
+Clears the cached data associated with this [CtMethod](#).
+

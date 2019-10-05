@@ -3,3 +3,6 @@
 # pool
 
 `val CtMethod.pool: ConstPool`
+
+Gets the [ConstPool](#) associated with this [CtMethod](#).
+

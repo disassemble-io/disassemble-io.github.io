@@ -6,3 +6,5 @@
 
 Overrides [ClassMemberInsn.key](../-class-member-insn/key.md)
 
+A string in the format of ..
+

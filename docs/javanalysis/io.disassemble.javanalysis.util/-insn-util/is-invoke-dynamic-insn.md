@@ -3,3 +3,13 @@
 # isInvokeDynamicInsn
 
 `fun isInvokeDynamicInsn(opcode: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)
+
+Checks if the given opcode is an [InvokeDynamicInsn](../../io.disassemble.javanalysis.insn/-invoke-dynamic-insn/index.md).
+
+### Parameters
+
+`opcode` - The opcode to check against.
+
+**Return**
+true if the given opcode is an [InvokeDynamicInsn](../../io.disassemble.javanalysis.insn/-invoke-dynamic-insn/index.md), otherwise false.
+

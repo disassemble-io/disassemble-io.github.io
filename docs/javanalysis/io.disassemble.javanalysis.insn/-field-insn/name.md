@@ -6,3 +6,5 @@
 
 Overrides [ClassMemberInsn.name](../-class-member-insn/name.md)
 
+The name of this member.
+

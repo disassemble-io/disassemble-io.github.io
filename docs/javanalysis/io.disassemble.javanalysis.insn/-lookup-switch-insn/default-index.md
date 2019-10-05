@@ -3,3 +3,6 @@
 # defaultIndex
 
 `val defaultIndex: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+The default index to internally look at within [javassist.bytecode.CodeIterator](#).
+

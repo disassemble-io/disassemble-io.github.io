@@ -3,3 +3,9 @@
 # add
 
 `fun add(insn: `[`CtInsn`](../../io.disassemble.javanalysis.insn/-ct-insn/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+
+Adds the given [CtInsn](../../io.disassemble.javanalysis.insn/-ct-insn/index.md) to this line.
+
+### Parameters
+
+`insn` - The [CtInsn](../../io.disassemble.javanalysis.insn/-ct-insn/index.md) to add to this line.

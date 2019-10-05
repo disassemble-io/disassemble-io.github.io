@@ -3,3 +3,6 @@
 # instructions
 
 `val CtMethod.instructions: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`CtInsn`](../../io.disassemble.javanalysis.insn/-ct-insn/index.md)`>`
+
+Gets a [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html) of [CtInsn](../../io.disassemble.javanalysis.insn/-ct-insn/index.md) within this [CtMethod](#).
+

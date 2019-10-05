@@ -3,3 +3,6 @@
 # key
 
 `val CtMethod.key: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
+A string formed as &lt;owner.name&gt;.
+

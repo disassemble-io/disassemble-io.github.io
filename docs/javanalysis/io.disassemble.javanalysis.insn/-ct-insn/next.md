@@ -3,3 +3,6 @@
 # next
 
 `var next: `[`CtInsn`](index.md)`?`
+
+The [CtInsn](index.md) that appears after this instruction.
+

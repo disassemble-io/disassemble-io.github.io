@@ -3,3 +3,6 @@
 # code
 
 `val CtMethod.code: CodeAttribute`
+
+Gets the [CodeAttribute](#) associated with this [CtMethod](#).
+

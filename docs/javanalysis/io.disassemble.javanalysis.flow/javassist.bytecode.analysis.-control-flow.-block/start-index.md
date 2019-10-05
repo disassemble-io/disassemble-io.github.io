@@ -3,3 +3,6 @@
 # startIndex
 
 `val Block.startIndex: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+Gets the start index of this [ControlFlow.Block](#).
+

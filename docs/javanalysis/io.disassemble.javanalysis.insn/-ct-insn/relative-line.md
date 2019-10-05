@@ -3,3 +3,6 @@
 # relativeLine
 
 `val relativeLine: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
+
+The line this instruction appears on, relative to its [CtMethod](#).
+
