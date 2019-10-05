@@ -1,0 +1,20 @@
+title: Disassemble
+email: disassemble@sedlar.me
+description: >-
+  An organization that strives to supply you with useful reverse engineering APIs
+baseurl: ""
+url: "https://disassemble.io"
+github_username:  disassemble-io
+
+# Build settings
+theme: minima
+
+permalink: pretty
+
+plugins:
+  - jekyll-optional-front-matter
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path
