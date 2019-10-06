@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>CtClassScanner.scanInputStream - javanalysis</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">javanalysis</a>&nbsp;/&nbsp;<a href="../index.html">io.disassemble.javanalysis.util</a>&nbsp;/&nbsp;<a href="index.html">CtClassScanner</a>&nbsp;/&nbsp;<a href="./scan-input-stream.html">scanInputStream</a><br/>
+<br/>
+<h1>scanInputStream</h1>
+<a name="io.disassemble.javanalysis.util.CtClassScanner$scanInputStream(java.io.InputStream, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))"></a>
+<code><span class="keyword">fun </span><span class="identifier">scanInputStream</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanInputStream(java.io.InputStream, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/inputStream">inputStream</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html"><span class="identifier">InputStream</span></a><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanInputStream(java.io.InputStream, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/predicate">predicate</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html"><span class="identifier">Predicate</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanInputStream(java.io.InputStream, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/consumer">consumer</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html"><span class="identifier">Consumer</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Reads the <a href="https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html">InputStream</a> into a <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a> object.</p>
+<h3>Parameters</h3>
+<p><a name="inputStream"></a>
+<code>inputStream</code> - An <a href="https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html">InputStream</a> representing a .class file.</p>
+<p><a name="predicate"></a>
+<code>predicate</code> - A filter for which <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a> should have the given <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html">Consumer</a> ran on it.</p>
+<p><a name="consumer"></a>
+<code>consumer</code> - The consumer to run on each of the <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a> within the matching <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a>.</p>
+</BODY>
+</HTML>

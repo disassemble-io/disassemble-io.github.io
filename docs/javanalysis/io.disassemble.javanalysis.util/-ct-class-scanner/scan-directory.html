@@ -1,0 +1,31 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>CtClassScanner.scanDirectory - javanalysis</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">javanalysis</a>&nbsp;/&nbsp;<a href="../index.html">io.disassemble.javanalysis.util</a>&nbsp;/&nbsp;<a href="index.html">CtClassScanner</a>&nbsp;/&nbsp;<a href="./scan-directory.html">scanDirectory</a><br/>
+<br/>
+<h1>scanDirectory</h1>
+<a name="io.disassemble.javanalysis.util.CtClassScanner$scanDirectory(java.io.File, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))"></a>
+<code><span class="keyword">fun </span><span class="identifier">scanDirectory</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanDirectory(java.io.File, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/directory">directory</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html"><span class="identifier">File</span></a><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanDirectory(java.io.File, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/predicate">predicate</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html"><span class="identifier">Predicate</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanDirectory(java.io.File, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/consumer">consumer</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html"><span class="identifier">Consumer</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Scans the given directory for matching <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a>.</p>
+<h3>Parameters</h3>
+<p><a name="directory"></a>
+<code>directory</code> - The <a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a> directory to look within.</p>
+<p><a name="predicate"></a>
+<code>predicate</code> - A filter for which <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a> should have the given <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html">Consumer</a> ran on it.</p>
+<p><a name="consumer"></a>
+<code>consumer</code> - The consumer to run on each of the <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a> within the matching <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a>.</p>
+<a name="io.disassemble.javanalysis.util.CtClassScanner$scanDirectory(java.io.File)"></a>
+<code><span class="keyword">fun </span><span class="identifier">scanDirectory</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanDirectory(java.io.File)/directory">directory</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html"><span class="identifier">File</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html"><span class="identifier">Map</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">&gt;</span></code>
+<p>Scans the given directory for matching <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a>, putting it within a map.
+The map key matches <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html#getName()">CtClass.getName</a></p>
+<h3>Parameters</h3>
+<p><a name="directory"></a>
+<code>directory</code> - The <a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a> directory to look within.</p>
+<p><strong>Return</strong><br/>
+A map of <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a> within the <a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a> directory, where the key is <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html#getName()">CtClass.getName</a>.</p>
+</BODY>
+</HTML>

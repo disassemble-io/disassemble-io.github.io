@@ -1,0 +1,146 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>MethodInsnQuery - javanalysis</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">javanalysis</a>&nbsp;/&nbsp;<a href="../index.html">io.disassemble.javanalysis.util.insn.query</a>&nbsp;/&nbsp;<a href="./index.html">MethodInsnQuery</a><br/>
+<br/>
+<h1>MethodInsnQuery</h1>
+<code><span class="keyword">class </span><span class="identifier">MethodInsnQuery</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../-insn-query/index.html"><span class="identifier">InsnQuery</span></a><span class="symbol">&lt;</span><a href="../../io.disassemble.javanalysis.insn/-method-insn/index.html"><span class="identifier">MethodInsn</span></a><span class="symbol">&gt;</span></code>
+<p>A class representing a query for an <a href="../../io.disassemble.javanalysis.insn/-method-insn/index.html">MethodInsn</a>.
+Used for filtering in lists.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">MethodInsnQuery</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>A class representing a query for an <a href="../../io.disassemble.javanalysis.insn/-method-insn/index.html">MethodInsn</a>.
+Used for filtering in lists.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inherited Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../-insn-query/conditions.html">conditions</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">conditions</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html"><span class="identifier">ArrayList</span></a><span class="symbol">&lt;</span><span class="symbol">(</span><a href="../-insn-query/index.html#T"><span class="identifier">T</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">&gt;</span></code>
+<p>The list of conditions that must be met.
+Used within <a href="../-insn-query/check.html">InsnQuery.check</a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-insn-query/dist.html">dist</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">dist</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Sets the distance allowed to be traveled between queries within <a href="../../io.disassemble.javanalysis/-insn-line/find.html">io.disassemble.javanalysis.InsnLine.find</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-insn-query/name.html">name</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">name</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>Gives this query a name.
+Used for putting into a map within <a href="../../io.disassemble.javanalysis/-insn-line/find.html">io.disassemble.javanalysis.InsnLine.find</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="desc.html">desc</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">desc</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.insn.query.MethodInsnQuery$desc(kotlin.String)/desc">desc</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">MethodInsnQuery</span></a></code>
+<p>Adds a condition to <a href="../-insn-query/conditions.html">InsnQuery.conditions</a> in which <a href="../../io.disassemble.javanalysis.insn/-method-insn/desc.html">MethodInsn.desc</a> must match the given value.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="method-name.html">methodName</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">methodName</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.insn.query.MethodInsnQuery$methodName(kotlin.String)/methodName">methodName</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">MethodInsnQuery</span></a></code>
+<p>Adds a condition to <a href="../-insn-query/conditions.html">InsnQuery.conditions</a> in which <a href="../../io.disassemble.javanalysis.insn/-method-insn/name.html">MethodInsn.name</a> must match the given value.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="parent.html">parent</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">parent</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.insn.query.MethodInsnQuery$parent(kotlin.String)/parent">parent</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">MethodInsnQuery</span></a></code>
+<p>Adds a condition to <a href="../-insn-query/conditions.html">InsnQuery.conditions</a> in which <a href="../../io.disassemble.javanalysis.insn/-method-insn/parent.html">MethodInsn.parent</a> must match the given value.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inherited Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../-insn-query/check.html">check</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">check</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.insn.query.InsnQuery$check(io.disassemble.javanalysis.insn.CtInsn)/insn">insn</span><span class="symbol">:</span>&nbsp;<a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html"><span class="identifier">CtInsn</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Checks if this <a href="../-insn-query/index.html">InsnQuery</a>'s conditions are met by the given <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-insn-query/dist.html">dist</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">dist</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.insn.query.InsnQuery$dist(kotlin.Int)/dist">dist</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="../-insn-query/index.html"><span class="identifier">InsnQuery</span></a><span class="symbol">&lt;</span><a href="../-insn-query/index.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span></code>
+<p>Sets the value of <a href="../-insn-query/dist.html">InsnQuery.dist</a> and returns itself.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-insn-query/name.html">name</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">name</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.insn.query.InsnQuery$name(kotlin.String)/name">name</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="../-insn-query/index.html"><span class="identifier">InsnQuery</span></a><span class="symbol">&lt;</span><a href="../-insn-query/index.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span></code>
+<p>Sets the value of <a href="../-insn-query/name.html">InsnQuery.name</a> and returns itself.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-insn-query/opcode.html">opcode</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">opcode</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="io.disassemble.javanalysis.util.insn.query.InsnQuery$opcode(kotlin.IntArray)/opcodes">opcodes</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="../-insn-query/index.html"><span class="identifier">InsnQuery</span></a><span class="symbol">&lt;</span><a href="../-insn-query/index.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span></code>
+<p>Adds a condition to <a href="../-insn-query/conditions.html">InsnQuery.conditions</a> in which the matching <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a> must be of one of the given opcodes.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-insn-query/plus.html">plus</a></p>
+</td>
+<td>
+<code><span class="keyword">operator</span> <span class="keyword">fun </span><span class="identifier">plus</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.insn.query.InsnQuery$plus(io.disassemble.javanalysis.util.insn.query.InsnQuery((io.disassemble.javanalysis.insn.CtInsn)))/query">query</span><span class="symbol">:</span>&nbsp;<a href="../-insn-query/index.html"><span class="identifier">InsnQuery</span></a><span class="symbol">&lt;</span><span class="keyword">out</span>&nbsp;<a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html"><span class="identifier">CtInsn</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html"><span class="identifier">Array</span></a><span class="symbol">&lt;</span><a href="../-insn-query/index.html"><span class="identifier">InsnQuery</span></a><span class="symbol">&lt;</span><span class="keyword">out</span>&nbsp;<a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html"><span class="identifier">CtInsn</span></a><span class="symbol">&gt;</span><span class="symbol">&gt;</span></code>
+<p>Creates an array of the two <a href="../-insn-query/index.html">InsnQuery</a>, being the <a href="../-insn-query/index.html">InsnQuery</a> called from, and the given value.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
