@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [LookupSwitchInsn](index.md) / [&lt;init&gt;](./-init-.md)
+---
+title: LookupSwitchInsn.<init> - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [LookupSwitchInsn](index.html) / [&lt;init&gt;](./-init-.html)
 
 # &lt;init&gt;
 

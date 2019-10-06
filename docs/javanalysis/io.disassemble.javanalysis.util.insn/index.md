@@ -1,9 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn](./index.md)
+---
+title: io.disassemble.javanalysis.util.insn - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn](./index.html)
 
 ## Package io.disassemble.javanalysis.util.insn
 
 ### Types
 
-| Name | Summary |
-|---|---|
-| [InsnUtil](-insn-util/index.md) | `object InsnUtil` |
+| [InsnUtil](-insn-util/index.html) | `object InsnUtil` |
+

@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis](../index.md) / [javassist.CtMethod](index.md) / [desc](./desc.md)
+---
+title: desc - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis](../index.html) / [javassist.CtMethod](index.html) / [desc](./desc.html)
 
 # desc
 

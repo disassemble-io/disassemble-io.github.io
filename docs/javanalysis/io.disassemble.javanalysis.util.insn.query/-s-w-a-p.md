@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [SWAP](./-s-w-a-p.md)
+---
+title: SWAP - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [SWAP](./-s-w-a-p.html)
 
 # SWAP
 
-`val SWAP: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val SWAP: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.SWAP](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.SWAP](#) instruction.
 

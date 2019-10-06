@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.flow](../index.md) / [ControlFlowGraph](index.md) / [blocks](./blocks.md)
+---
+title: ControlFlowGraph.blocks - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.flow](../index.html) / [ControlFlowGraph](index.html) / [blocks](./blocks.html)
 
 # blocks
 

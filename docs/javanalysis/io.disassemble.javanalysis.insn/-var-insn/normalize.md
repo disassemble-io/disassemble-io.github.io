@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [VarInsn](index.md) / [normalize](./normalize.md)
+---
+title: VarInsn.normalize - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [VarInsn](index.html) / [normalize](./normalize.html)
 
 # normalize
 
@@ -8,8 +12,8 @@ Normalizes this instruction by changing iload_1 to iload, etc.
 
 ### Parameters
 
-`iter` - The [CodeIterator](#) to change [CtInsn](../-ct-insn/index.md) within.
+`iter` - The [CodeIterator](#) to change [CtInsn](../-ct-insn/index.html) within.
 
-`index` - The index of the [CtInsn](../-ct-insn/index.md) to change.
+`index` - The index of the [CtInsn](../-ct-insn/index.html) to change.
 
 `op` - The opcode to be normalized.

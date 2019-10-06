@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [FMUL](./-f-m-u-l.md)
+---
+title: FMUL - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [FMUL](./-f-m-u-l.html)
 
 # FMUL
 
-`val FMUL: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val FMUL: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.FMUL](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.FMUL](#) instruction.
 

@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util](../index.md) / [CtClassScanner](index.md) / [scanDirectory](./scan-directory.md)
+---
+title: CtClassScanner.scanDirectory - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util](../index.html) / [CtClassScanner](index.html) / [scanDirectory](./scan-directory.html)
 
 # scanDirectory
 

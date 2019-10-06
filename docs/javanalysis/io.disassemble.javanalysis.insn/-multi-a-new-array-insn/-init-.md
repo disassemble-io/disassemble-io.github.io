@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [MultiANewArrayInsn](index.md) / [&lt;init&gt;](./-init-.md)
+---
+title: MultiANewArrayInsn.<init> - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [MultiANewArrayInsn](index.html) / [&lt;init&gt;](./-init-.html)
 
 # &lt;init&gt;
 

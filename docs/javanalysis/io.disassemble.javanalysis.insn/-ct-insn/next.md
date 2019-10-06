@@ -1,8 +1,12 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [CtInsn](index.md) / [next](./next.md)
+---
+title: CtInsn.next - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [CtInsn](index.html) / [next](./next.html)
 
 # next
 
-`var next: `[`CtInsn`](index.md)`?`
+`var next: `[`CtInsn`](index.html)`?`
 
-The [CtInsn](index.md) that appears after this instruction.
+The [CtInsn](index.html) that appears after this instruction.
 

@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [ANEWARRAY](./-a-n-e-w-a-r-r-a-y.md)
+---
+title: ANEWARRAY - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [ANEWARRAY](./-a-n-e-w-a-r-r-a-y.html)
 
 # ANEWARRAY
 
-`val ANEWARRAY: `[`TypeInsnQuery`](-type-insn-query/index.md)
+`val ANEWARRAY: `[`TypeInsnQuery`](-type-insn-query/index.html)
 
-Creates a [TypeInsnQuery](-type-insn-query/index.md) filter matching the [Opcode.ANEWARRAY](#) instruction.
+Creates a [TypeInsnQuery](-type-insn-query/index.html) filter matching the [Opcode.ANEWARRAY](#) instruction.
 

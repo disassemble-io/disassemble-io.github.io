@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [ISHL](./-i-s-h-l.md)
+---
+title: ISHL - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [ISHL](./-i-s-h-l.html)
 
 # ISHL
 
-`val ISHL: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val ISHL: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.ISHL](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.ISHL](#) instruction.
 

@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [IFGT](./-i-f-g-t.md)
+---
+title: IFGT - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [IFGT](./-i-f-g-t.html)
 
 # IFGT
 
-`val IFGT: `[`JumpInsnQuery`](-jump-insn-query/index.md)
+`val IFGT: `[`JumpInsnQuery`](-jump-insn-query/index.html)
 
-Creates a [JumpInsnQuery](-jump-insn-query/index.md) filter matching the [Opcode.IFGT](#) instruction.
+Creates a [JumpInsnQuery](-jump-insn-query/index.html) filter matching the [Opcode.IFGT](#) instruction.
 

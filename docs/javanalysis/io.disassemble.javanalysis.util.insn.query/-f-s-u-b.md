@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [FSUB](./-f-s-u-b.md)
+---
+title: FSUB - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [FSUB](./-f-s-u-b.html)
 
 # FSUB
 
-`val FSUB: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val FSUB: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.FSUB](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.FSUB](#) instruction.
 

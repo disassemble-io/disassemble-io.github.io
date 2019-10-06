@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [TypeInsn](index.md) / [&lt;init&gt;](./-init-.md)
+---
+title: TypeInsn.<init> - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [TypeInsn](index.html) / [&lt;init&gt;](./-init-.html)
 
 # &lt;init&gt;
 

@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [DSTORE](./-d-s-t-o-r-e.md)
+---
+title: DSTORE - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [DSTORE](./-d-s-t-o-r-e.html)
 
 # DSTORE
 
-`val DSTORE: `[`VarInsnQuery`](-var-insn-query/index.md)
+`val DSTORE: `[`VarInsnQuery`](-var-insn-query/index.html)
 
-Creates a [VarInsnQuery](-var-insn-query/index.md) filter matching the [Opcode.DSTORE](#) instruction.
+Creates a [VarInsnQuery](-var-insn-query/index.html) filter matching the [Opcode.DSTORE](#) instruction.
 

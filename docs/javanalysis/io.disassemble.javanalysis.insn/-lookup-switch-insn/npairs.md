@@ -1,8 +1,12 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [LookupSwitchInsn](index.md) / [npairs](./npairs.md)
+---
+title: LookupSwitchInsn.npairs - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [LookupSwitchInsn](index.html) / [npairs](./npairs.html)
 
 # npairs
 
 `val npairs: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)
 
-The number of pairs within this [LookupSwitchInsn](index.md).
+The number of pairs within this [LookupSwitchInsn](index.html).
 

@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [LdcInsn](index.md) / [setInt](./set-int.md)
+---
+title: LdcInsn.setInt - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [LdcInsn](index.html) / [setInt](./set-int.html)
 
 # setInt
 

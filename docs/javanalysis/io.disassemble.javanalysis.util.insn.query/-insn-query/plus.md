@@ -1,15 +1,19 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util.insn.query](../index.md) / [InsnQuery](index.md) / [plus](./plus.md)
+---
+title: InsnQuery.plus - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util.insn.query](../index.html) / [InsnQuery](index.html) / [plus](./plus.html)
 
 # plus
 
-`operator fun plus(query: `[`InsnQuery`](index.md)`<out `[`CtInsn`](../../io.disassemble.javanalysis.insn/-ct-insn/index.md)`>): `[`Array`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)`<`[`InsnQuery`](index.md)`<out `[`CtInsn`](../../io.disassemble.javanalysis.insn/-ct-insn/index.md)`>>`
+`operator fun plus(query: `[`InsnQuery`](index.html)`<out `[`CtInsn`](../../io.disassemble.javanalysis.insn/-ct-insn/index.html)`>): `[`Array`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)`<`[`InsnQuery`](index.html)`<out `[`CtInsn`](../../io.disassemble.javanalysis.insn/-ct-insn/index.html)`>>`
 
-Creates an array of the two [InsnQuery](index.md), being the [InsnQuery](index.md) called from, and the given value.
+Creates an array of the two [InsnQuery](index.html), being the [InsnQuery](index.html) called from, and the given value.
 
 ### Parameters
 
-`query` - the [InsnQuery](index.md) to create an array with.
+`query` - the [InsnQuery](index.html) to create an array with.
 
 **Return**
-An array of the two [InsnQuery](index.md), being the [InsnQuery](index.md) called from, and the given value.
+An array of the two [InsnQuery](index.html), being the [InsnQuery](index.html) called from, and the given value.
 

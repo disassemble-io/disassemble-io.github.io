@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [LdcInsn](index.md) / [setFloat](./set-float.md)
+---
+title: LdcInsn.setFloat - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [LdcInsn](index.html) / [setFloat](./set-float.html)
 
 # setFloat
 

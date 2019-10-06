@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util.insn.query](../index.md) / [InsnQuery](index.md) / [&lt;init&gt;](./-init-.md)
+---
+title: InsnQuery.<init> - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util.insn.query](../index.html) / [InsnQuery](index.html) / [&lt;init&gt;](./-init-.html)
 
 # &lt;init&gt;
 

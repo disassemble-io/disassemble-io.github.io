@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.flow](../index.md) / [ControlFlowGraph](index.md) / [findBlockByIndex](./find-block-by-index.md)
+---
+title: ControlFlowGraph.findBlockByIndex - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.flow](../index.html) / [ControlFlowGraph](index.html) / [findBlockByIndex](./find-block-by-index.html)
 
 # findBlockByIndex
 

@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis](../index.md) / [javassist.CtClass](index.md) / [hash](./hash.md)
+---
+title: hash - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis](../index.html) / [javassist.CtClass](index.html) / [hash](./hash.html)
 
 # hash
 

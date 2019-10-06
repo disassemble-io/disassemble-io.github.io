@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util.insn](../index.md) / [InsnUtil](index.md) / [underVal](./under-val.md)
+---
+title: InsnUtil.underVal - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util.insn](../index.html) / [InsnUtil](index.html) / [underVal](./under-val.html)
 
 # underVal
 

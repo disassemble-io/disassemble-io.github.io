@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util.insn](../index.md) / [InsnUtil](index.md) / [isUnderscoreInsn](./is-underscore-insn.md)
+---
+title: InsnUtil.isUnderscoreInsn - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util.insn](../index.html) / [InsnUtil](index.html) / [isUnderscoreInsn](./is-underscore-insn.html)
 
 # isUnderscoreInsn
 

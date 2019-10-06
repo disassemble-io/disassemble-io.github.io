@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [D2L](./-d2-l.md)
+---
+title: D2L - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [D2L](./-d2-l.html)
 
 # D2L
 
-`val D2L: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val D2L: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.D2L](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.D2L](#) instruction.
 

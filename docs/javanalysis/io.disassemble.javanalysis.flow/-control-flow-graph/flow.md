@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.flow](../index.md) / [ControlFlowGraph](index.md) / [flow](./flow.md)
+---
+title: ControlFlowGraph.flow - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.flow](../index.html) / [ControlFlowGraph](index.html) / [flow](./flow.html)
 
 # flow
 

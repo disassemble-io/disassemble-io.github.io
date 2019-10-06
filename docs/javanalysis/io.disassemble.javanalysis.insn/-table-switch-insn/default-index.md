@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [TableSwitchInsn](index.md) / [defaultIndex](./default-index.md)
+---
+title: TableSwitchInsn.defaultIndex - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [TableSwitchInsn](index.html) / [defaultIndex](./default-index.html)
 
 # defaultIndex
 

@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [AALOAD](./-a-a-l-o-a-d.md)
+---
+title: AALOAD - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [AALOAD](./-a-a-l-o-a-d.html)
 
 # AALOAD
 
-`val AALOAD: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val AALOAD: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.AALOAD](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.AALOAD](#) instruction.
 

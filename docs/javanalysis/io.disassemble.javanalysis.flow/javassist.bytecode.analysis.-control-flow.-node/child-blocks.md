@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.flow](../index.md) / [javassist.bytecode.analysis.ControlFlow.Node](index.md) / [childBlocks](./child-blocks.md)
+---
+title: childBlocks - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.flow](../index.html) / [javassist.bytecode.analysis.ControlFlow.Node](index.html) / [childBlocks](./child-blocks.html)
 
 # childBlocks
 

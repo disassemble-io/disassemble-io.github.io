@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [CHECKCAST](./-c-h-e-c-k-c-a-s-t.md)
+---
+title: CHECKCAST - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [CHECKCAST](./-c-h-e-c-k-c-a-s-t.html)
 
 # CHECKCAST
 
-`val CHECKCAST: `[`TypeInsnQuery`](-type-insn-query/index.md)
+`val CHECKCAST: `[`TypeInsnQuery`](-type-insn-query/index.html)
 
-Creates a [TypeInsnQuery](-type-insn-query/index.md) filter matching the [Opcode.CHECKCAST](#) instruction.
+Creates a [TypeInsnQuery](-type-insn-query/index.html) filter matching the [Opcode.CHECKCAST](#) instruction.
 

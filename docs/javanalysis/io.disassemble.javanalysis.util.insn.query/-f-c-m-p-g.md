@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [FCMPG](./-f-c-m-p-g.md)
+---
+title: FCMPG - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [FCMPG](./-f-c-m-p-g.html)
 
 # FCMPG
 
-`val FCMPG: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val FCMPG: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.FCMPG](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.FCMPG](#) instruction.
 

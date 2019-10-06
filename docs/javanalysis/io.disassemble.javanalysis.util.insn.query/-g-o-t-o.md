@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [GOTO](./-g-o-t-o.md)
+---
+title: GOTO - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [GOTO](./-g-o-t-o.html)
 
 # GOTO
 
-`val GOTO: `[`JumpInsnQuery`](-jump-insn-query/index.md)
+`val GOTO: `[`JumpInsnQuery`](-jump-insn-query/index.html)
 
-Creates a [JumpInsnQuery](-jump-insn-query/index.md) filter matching the [Opcode.GOTO](#) instruction.
+Creates a [JumpInsnQuery](-jump-insn-query/index.html) filter matching the [Opcode.GOTO](#) instruction.
 

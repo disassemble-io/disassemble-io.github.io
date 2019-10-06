@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis](../index.md) / [javassist.CtClass](index.md) / [allDeclaredMethods](./all-declared-methods.md)
+---
+title: allDeclaredMethods - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis](../index.html) / [javassist.CtClass](index.html) / [allDeclaredMethods](./all-declared-methods.html)
 
 # allDeclaredMethods
 

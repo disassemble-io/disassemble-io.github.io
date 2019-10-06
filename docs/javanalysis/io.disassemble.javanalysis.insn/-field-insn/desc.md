@@ -1,10 +1,14 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [FieldInsn](index.md) / [desc](./desc.md)
+---
+title: FieldInsn.desc - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [FieldInsn](index.html) / [desc](./desc.html)
 
 # desc
 
 `var desc: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?`
 
-Overrides [ClassMemberInsn.desc](../-class-member-insn/desc.md)
+Overrides [ClassMemberInsn.desc](../-class-member-insn/desc.html)
 
 The descriptor of this member.
 

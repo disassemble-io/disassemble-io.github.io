@@ -1,15 +1,19 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util.insn.query](../index.md) / [FieldInsnQuery](index.md) / [desc](./desc.md)
+---
+title: FieldInsnQuery.desc - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util.insn.query](../index.html) / [FieldInsnQuery](index.html) / [desc](./desc.html)
 
 # desc
 
-`fun desc(desc: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`FieldInsnQuery`](index.md)
+`fun desc(desc: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`FieldInsnQuery`](index.html)
 
-Adds a condition to [InsnQuery.conditions](../-insn-query/conditions.md) in which [FieldInsn.desc](../../io.disassemble.javanalysis.insn/-field-insn/desc.md) must match the given value.
+Adds a condition to [InsnQuery.conditions](../-insn-query/conditions.html) in which [FieldInsn.desc](../../io.disassemble.javanalysis.insn/-field-insn/desc.html) must match the given value.
 
 ### Parameters
 
-`desc` - The value to match against [FieldInsn.desc](../../io.disassemble.javanalysis.insn/-field-insn/desc.md).
+`desc` - The value to match against [FieldInsn.desc](../../io.disassemble.javanalysis.insn/-field-insn/desc.html).
 
 **Return**
-The same [FieldInsnQuery](index.md) that this method was called from.
+The same [FieldInsnQuery](index.html) that this method was called from.
 

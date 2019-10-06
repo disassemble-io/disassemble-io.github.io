@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [RET](./-r-e-t.md)
+---
+title: RET - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [RET](./-r-e-t.html)
 
 # RET
 
-`val RET: `[`JumpInsnQuery`](-jump-insn-query/index.md)
+`val RET: `[`JumpInsnQuery`](-jump-insn-query/index.html)
 
-Creates a [JumpInsnQuery](-jump-insn-query/index.md) filter matching the [Opcode.RET](#) instruction.
+Creates a [JumpInsnQuery](-jump-insn-query/index.html) filter matching the [Opcode.RET](#) instruction.
 

@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [POP](./-p-o-p.md)
+---
+title: POP - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [POP](./-p-o-p.html)
 
 # POP
 
-`val POP: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val POP: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.POP](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.POP](#) instruction.
 

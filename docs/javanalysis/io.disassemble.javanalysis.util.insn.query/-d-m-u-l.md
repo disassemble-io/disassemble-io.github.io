@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [DMUL](./-d-m-u-l.md)
+---
+title: DMUL - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [DMUL](./-d-m-u-l.html)
 
 # DMUL
 
-`val DMUL: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val DMUL: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.DMUL](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.DMUL](#) instruction.
 

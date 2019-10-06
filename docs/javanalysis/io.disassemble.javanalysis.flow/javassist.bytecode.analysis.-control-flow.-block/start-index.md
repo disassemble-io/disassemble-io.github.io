@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.flow](../index.md) / [javassist.bytecode.analysis.ControlFlow.Block](index.md) / [startIndex](./start-index.md)
+---
+title: startIndex - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.flow](../index.html) / [javassist.bytecode.analysis.ControlFlow.Block](index.html) / [startIndex](./start-index.html)
 
 # startIndex
 
