@@ -8,7 +8,8 @@
 | [io.disassemble.javanalysis.flow](io.disassemble.javanalysis.flow/index.md) |  |
 | [io.disassemble.javanalysis.insn](io.disassemble.javanalysis.insn/index.md) |  |
 | [io.disassemble.javanalysis.util](io.disassemble.javanalysis.util/index.md) |  |
-| [io.disassemble.javanalysis.util.query](io.disassemble.javanalysis.util.query/index.md) |  |
+| [io.disassemble.javanalysis.util.insn](io.disassemble.javanalysis.util.insn/index.md) |  |
+| [io.disassemble.javanalysis.util.insn.query](io.disassemble.javanalysis.util.insn.query/index.md) |  |
 
 ### Index
 

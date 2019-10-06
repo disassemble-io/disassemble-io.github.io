@@ -29,8 +29,10 @@ $dokka.location:io.disassemble.javanalysis.flow$endIndex#javassist.bytecode.anal
 $dokka.location:io.disassemble.javanalysis.flow$startIndex#javassist.bytecode.analysis.ControlFlow.Blockio.disassemble.javanalysis.flow/javassist.bytecode.analysis.-control-flow.-block/start-index.md
 $dokka.location:io.disassemble.javanalysis.flow$stripInsns(javassist.bytecode.analysis.ControlFlow.Block, javassist.CtMethod)io.disassemble.javanalysis.flow/javassist.bytecode.analysis.-control-flow.-block/strip-insns.md
 $dokka.location:io.disassemble.javanalysis.util$write(kotlin.collections.Map((kotlin.String, javassist.CtClass)), java.io.File)io.disassemble.javanalysis.util/kotlin.collections.-map/write.md
+$dokka.location:io.disassemble.javanalysis.util.insn.query$distAll(kotlin.Array((io.disassemble.javanalysis.util.insn.query.InsnQuery((io.disassemble.javanalysis.insn.CtInsn)))), kotlin.Int)io.disassemble.javanalysis.util.insn.query/kotlin.-array/dist-all.md
 io.disassemble.javanalysis
 io.disassemble.javanalysis.flow
 io.disassemble.javanalysis.insn
 io.disassemble.javanalysis.util
-io.disassemble.javanalysis.util.query
+io.disassemble.javanalysis.util.insn
+io.disassemble.javanalysis.util.insn.query
