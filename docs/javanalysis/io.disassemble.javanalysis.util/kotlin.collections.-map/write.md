@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util](../index.md) / [kotlin.collections.Map](index.md) / [write](./write.md)
+---
+title: write - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util](../index.html) / [kotlin.collections.Map](index.html) / [write](./write.html)
 
 # write
 

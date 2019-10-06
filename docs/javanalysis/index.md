@@ -1,16 +1,18 @@
-[javanalysis](./index.md)
+---
+title: javanalysis
+---
+
+[javanalysis](./index.html)
 
 ### Packages
 
-| Name | Summary |
-|---|---|
-| [io.disassemble.javanalysis](io.disassemble.javanalysis/index.md) |  |
-| [io.disassemble.javanalysis.flow](io.disassemble.javanalysis.flow/index.md) |  |
-| [io.disassemble.javanalysis.insn](io.disassemble.javanalysis.insn/index.md) |  |
-| [io.disassemble.javanalysis.util](io.disassemble.javanalysis.util/index.md) |  |
-| [io.disassemble.javanalysis.util.insn](io.disassemble.javanalysis.util.insn/index.md) |  |
-| [io.disassemble.javanalysis.util.insn.query](io.disassemble.javanalysis.util.insn.query/index.md) |  |
+| [io.disassemble.javanalysis](io.disassemble.javanalysis/index.html) |  |
+| [io.disassemble.javanalysis.flow](io.disassemble.javanalysis.flow/index.html) |  |
+| [io.disassemble.javanalysis.insn](io.disassemble.javanalysis.insn/index.html) |  |
+| [io.disassemble.javanalysis.util](io.disassemble.javanalysis.util/index.html) |  |
+| [io.disassemble.javanalysis.util.insn](io.disassemble.javanalysis.util.insn/index.html) |  |
+| [io.disassemble.javanalysis.util.insn.query](io.disassemble.javanalysis.util.insn.query/index.html) |  |
 
 ### Index
 
-[All Types](alltypes/index.md)
+[All Types](alltypes/index.html)

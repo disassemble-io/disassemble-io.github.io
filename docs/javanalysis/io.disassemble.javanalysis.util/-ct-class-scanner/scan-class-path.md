@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util](../index.md) / [CtClassScanner](index.md) / [scanClassPath](./scan-class-path.md)
+---
+title: CtClassScanner.scanClassPath - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util](../index.html) / [CtClassScanner](index.html) / [scanClassPath](./scan-class-path.html)
 
 # scanClassPath
 

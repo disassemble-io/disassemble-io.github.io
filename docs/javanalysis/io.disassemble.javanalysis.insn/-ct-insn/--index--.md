@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [CtInsn](index.md) / [index](./--index--.md)
+---
+title: CtInsn.index - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [CtInsn](index.html) / [index](./--index--.html)
 
 # index
 

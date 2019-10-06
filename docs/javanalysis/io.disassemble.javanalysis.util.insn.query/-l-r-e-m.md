@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [LREM](./-l-r-e-m.md)
+---
+title: LREM - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [LREM](./-l-r-e-m.html)
 
 # LREM
 
-`val LREM: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val LREM: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.LREM](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.LREM](#) instruction.
 

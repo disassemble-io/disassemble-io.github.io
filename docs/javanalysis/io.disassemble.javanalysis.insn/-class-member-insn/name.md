@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [ClassMemberInsn](index.md) / [name](./name.md)
+---
+title: ClassMemberInsn.name - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [ClassMemberInsn](index.html) / [name](./name.html)
 
 # name
 

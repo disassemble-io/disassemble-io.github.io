@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [DRETURN](./-d-r-e-t-u-r-n.md)
+---
+title: DRETURN - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [DRETURN](./-d-r-e-t-u-r-n.html)
 
 # DRETURN
 
-`val DRETURN: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val DRETURN: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.DRETURN](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.DRETURN](#) instruction.
 

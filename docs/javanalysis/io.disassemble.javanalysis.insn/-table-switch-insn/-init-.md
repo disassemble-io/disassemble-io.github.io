@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [TableSwitchInsn](index.md) / [&lt;init&gt;](./-init-.md)
+---
+title: TableSwitchInsn.<init> - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [TableSwitchInsn](index.html) / [&lt;init&gt;](./-init-.html)
 
 # &lt;init&gt;
 

@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [ILOAD](./-i-l-o-a-d.md)
+---
+title: ILOAD - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [ILOAD](./-i-l-o-a-d.html)
 
 # ILOAD
 
-`val ILOAD: `[`VarInsnQuery`](-var-insn-query/index.md)
+`val ILOAD: `[`VarInsnQuery`](-var-insn-query/index.html)
 
-Creates a [VarInsnQuery](-var-insn-query/index.md) filter matching the [Opcode.ILOAD](#) instruction.
+Creates a [VarInsnQuery](-var-insn-query/index.html) filter matching the [Opcode.ILOAD](#) instruction.
 

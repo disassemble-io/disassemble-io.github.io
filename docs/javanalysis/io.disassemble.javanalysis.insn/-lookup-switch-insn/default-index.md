@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [LookupSwitchInsn](index.md) / [defaultIndex](./default-index.md)
+---
+title: LookupSwitchInsn.defaultIndex - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [LookupSwitchInsn](index.html) / [defaultIndex](./default-index.html)
 
 # defaultIndex
 

@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [LdcInsn](index.md) / [setLong](./set-long.md)
+---
+title: LdcInsn.setLong - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [LdcInsn](index.html) / [setLong](./set-long.html)
 
 # setLong
 

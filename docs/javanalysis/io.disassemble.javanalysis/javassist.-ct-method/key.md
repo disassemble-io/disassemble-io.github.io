@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis](../index.md) / [javassist.CtMethod](index.md) / [key](./key.md)
+---
+title: key - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis](../index.html) / [javassist.CtMethod](index.html) / [key](./key.html)
 
 # key
 

@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [ISTORE](./-i-s-t-o-r-e.md)
+---
+title: ISTORE - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [ISTORE](./-i-s-t-o-r-e.html)
 
 # ISTORE
 
-`val ISTORE: `[`VarInsnQuery`](-var-insn-query/index.md)
+`val ISTORE: `[`VarInsnQuery`](-var-insn-query/index.html)
 
-Creates a [VarInsnQuery](-var-insn-query/index.md) filter matching the [Opcode.ISTORE](#) instruction.
+Creates a [VarInsnQuery](-var-insn-query/index.html) filter matching the [Opcode.ISTORE](#) instruction.
 

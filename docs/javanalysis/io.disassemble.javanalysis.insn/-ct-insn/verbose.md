@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [CtInsn](index.md) / [verbose](./verbose.md)
+---
+title: CtInsn.verbose - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [CtInsn](index.html) / [verbose](./verbose.html)
 
 # verbose
 

@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis](../index.md) / [javassist.CtMethod](index.md) / [pool](./pool.md)
+---
+title: pool - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis](../index.html) / [javassist.CtMethod](index.html) / [pool](./pool.html)
 
 # pool
 

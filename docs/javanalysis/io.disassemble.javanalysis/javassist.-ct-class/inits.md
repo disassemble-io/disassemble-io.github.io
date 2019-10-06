@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis](../index.md) / [javassist.CtClass](index.md) / [inits](./inits.md)
+---
+title: inits - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis](../index.html) / [javassist.CtClass](index.html) / [inits](./inits.html)
 
 # inits
 

@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [LookupSwitchInsn](index.md) / [indices](./indices.md)
+---
+title: LookupSwitchInsn.indices - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [LookupSwitchInsn](index.html) / [indices](./indices.html)
 
 # indices
 

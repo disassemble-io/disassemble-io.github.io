@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [InvokeDynamicInsn](index.md) / [bootstrap](./bootstrap.md)
+---
+title: InvokeDynamicInsn.bootstrap - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [InvokeDynamicInsn](index.html) / [bootstrap](./bootstrap.html)
 
 # bootstrap
 

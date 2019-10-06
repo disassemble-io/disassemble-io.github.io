@@ -1,15 +1,19 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util.insn.query](../index.md) / [TypeInsnQuery](index.md) / [type](./type.md)
+---
+title: TypeInsnQuery.type - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util.insn.query](../index.html) / [TypeInsnQuery](index.html) / [type](./type.html)
 
 # type
 
-`fun type(type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`TypeInsnQuery`](index.md)
+`fun type(type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`TypeInsnQuery`](index.html)
 
-Adds a condition to [InsnQuery.conditions](../-insn-query/conditions.md) in which [TypeInsn.type](../../io.disassemble.javanalysis.insn/-type-insn/type.md) must match the given value.
+Adds a condition to [InsnQuery.conditions](../-insn-query/conditions.html) in which [TypeInsn.type](../../io.disassemble.javanalysis.insn/-type-insn/type.html) must match the given value.
 
 ### Parameters
 
-`type` - The value to match against [TypeInsn.type](../../io.disassemble.javanalysis.insn/-type-insn/type.md).
+`type` - The value to match against [TypeInsn.type](../../io.disassemble.javanalysis.insn/-type-insn/type.html).
 
 **Return**
-The same [TypeInsnQuery](index.md) that this method was called from.
+The same [TypeInsnQuery](index.html) that this method was called from.
 

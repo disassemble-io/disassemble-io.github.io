@@ -1,15 +1,19 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util.insn.query](../index.md) / [VarInsnQuery](index.md) / [variable](./variable.md)
+---
+title: VarInsnQuery.variable - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util.insn.query](../index.html) / [VarInsnQuery](index.html) / [variable](./variable.html)
 
 # variable
 
-`fun variable(variable: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`VarInsnQuery`](index.md)
+`fun variable(variable: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`VarInsnQuery`](index.html)
 
-Adds a condition to [InsnQuery.conditions](../-insn-query/conditions.md) in which [VarInsn.variable](../../io.disassemble.javanalysis.insn/-var-insn/variable.md) must match the given value.
+Adds a condition to [InsnQuery.conditions](../-insn-query/conditions.html) in which [VarInsn.variable](../../io.disassemble.javanalysis.insn/-var-insn/variable.html) must match the given value.
 
 ### Parameters
 
-`variable` - The value to match against [VarInsn.variable](../../io.disassemble.javanalysis.insn/-var-insn/variable.md).
+`variable` - The value to match against [VarInsn.variable](../../io.disassemble.javanalysis.insn/-var-insn/variable.html).
 
 **Return**
-The same [VarInsnQuery](index.md) that this method was called from.
+The same [VarInsnQuery](index.html) that this method was called from.
 

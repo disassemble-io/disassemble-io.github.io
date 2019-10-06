@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [INEG](./-i-n-e-g.md)
+---
+title: INEG - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [INEG](./-i-n-e-g.html)
 
 # INEG
 
-`val INEG: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val INEG: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.INEG](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.INEG](#) instruction.
 

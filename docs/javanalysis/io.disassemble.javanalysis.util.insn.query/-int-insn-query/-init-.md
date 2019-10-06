@@ -1,9 +1,13 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util.insn.query](../index.md) / [IntInsnQuery](index.md) / [&lt;init&gt;](./-init-.md)
+---
+title: IntInsnQuery.<init> - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util.insn.query](../index.html) / [IntInsnQuery](index.html) / [&lt;init&gt;](./-init-.html)
 
 # &lt;init&gt;
 
 `IntInsnQuery()`
 
-A class representing a query for an [IntInsn](../../io.disassemble.javanalysis.insn/-int-insn/index.md).
+A class representing a query for an [IntInsn](../../io.disassemble.javanalysis.insn/-int-insn/index.html).
 Used for filtering in lists.
 

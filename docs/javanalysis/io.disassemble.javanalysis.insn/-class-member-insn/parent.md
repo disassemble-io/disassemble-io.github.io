@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [ClassMemberInsn](index.md) / [parent](./parent.md)
+---
+title: ClassMemberInsn.parent - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [ClassMemberInsn](index.html) / [parent](./parent.html)
 
 # parent
 

@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [VarInsn](index.md) / [variable](./variable.md)
+---
+title: VarInsn.variable - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [VarInsn](index.html) / [variable](./variable.html)
 
 # variable
 

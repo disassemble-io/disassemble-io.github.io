@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [WideInsn](index.md) / [wideOp](./wide-op.md)
+---
+title: WideInsn.wideOp - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [WideInsn](index.html) / [wideOp](./wide-op.html)
 
 # wideOp
 

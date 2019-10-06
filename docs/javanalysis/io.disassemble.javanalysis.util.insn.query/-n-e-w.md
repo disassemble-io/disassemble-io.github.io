@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [NEW](./-n-e-w.md)
+---
+title: NEW - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [NEW](./-n-e-w.html)
 
 # NEW
 
-`val NEW: `[`TypeInsnQuery`](-type-insn-query/index.md)
+`val NEW: `[`TypeInsnQuery`](-type-insn-query/index.html)
 
-Creates a [TypeInsnQuery](-type-insn-query/index.md) filter matching the [Opcode.NEW](#) instruction.
+Creates a [TypeInsnQuery](-type-insn-query/index.html) filter matching the [Opcode.NEW](#) instruction.
 

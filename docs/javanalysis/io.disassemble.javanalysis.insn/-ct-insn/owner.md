@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [CtInsn](index.md) / [owner](./owner.md)
+---
+title: CtInsn.owner - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [CtInsn](index.html) / [owner](./owner.html)
 
 # owner
 

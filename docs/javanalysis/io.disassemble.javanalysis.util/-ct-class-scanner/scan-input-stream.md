@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.util](../index.md) / [CtClassScanner](index.md) / [scanInputStream](./scan-input-stream.md)
+---
+title: CtClassScanner.scanInputStream - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.util](../index.html) / [CtClassScanner](index.html) / [scanInputStream](./scan-input-stream.html)
 
 # scanInputStream
 

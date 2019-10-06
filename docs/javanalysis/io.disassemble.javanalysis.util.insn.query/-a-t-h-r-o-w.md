@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [ATHROW](./-a-t-h-r-o-w.md)
+---
+title: ATHROW - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [ATHROW](./-a-t-h-r-o-w.html)
 
 # ATHROW
 
-`val ATHROW: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val ATHROW: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.ATHROW](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.ATHROW](#) instruction.
 

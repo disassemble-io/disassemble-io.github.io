@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis](../index.md) / [javassist.CtMethod](index.md) / [index](./--index--.md)
+---
+title: index - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis](../index.html) / [javassist.CtMethod](index.html) / [index](./--index--.html)
 
 # index
 
@@ -8,6 +12,6 @@ Maps the instruction index to the given position.
 
 ### Parameters
 
-`insnIndex` - The index of the [CtInsn](../../io.disassemble.javanalysis.insn/-ct-insn/index.md) (map key).
+`insnIndex` - The index of the [CtInsn](../../io.disassemble.javanalysis.insn/-ct-insn/index.html) (map key).
 
-`position` - The position of the [CtInsn](../../io.disassemble.javanalysis.insn/-ct-insn/index.md) (map value).
+`position` - The position of the [CtInsn](../../io.disassemble.javanalysis.insn/-ct-insn/index.html) (map value).

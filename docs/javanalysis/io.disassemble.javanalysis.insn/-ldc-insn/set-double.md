@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [LdcInsn](index.md) / [setDouble](./set-double.md)
+---
+title: LdcInsn.setDouble - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [LdcInsn](index.html) / [setDouble](./set-double.html)
 
 # setDouble
 

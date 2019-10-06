@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [LSHL](./-l-s-h-l.md)
+---
+title: LSHL - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [LSHL](./-l-s-h-l.html)
 
 # LSHL
 
-`val LSHL: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val LSHL: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.LSHL](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.LSHL](#) instruction.
 

@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [JSR](./-j-s-r.md)
+---
+title: JSR - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [JSR](./-j-s-r.html)
 
 # JSR
 
-`val JSR: `[`JumpInsnQuery`](-jump-insn-query/index.md)
+`val JSR: `[`JumpInsnQuery`](-jump-insn-query/index.html)
 
-Creates a [JumpInsnQuery](-jump-insn-query/index.md) filter matching the [Opcode.JSR](#) instruction.
+Creates a [JumpInsnQuery](-jump-insn-query/index.html) filter matching the [Opcode.JSR](#) instruction.
 

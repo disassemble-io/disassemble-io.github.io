@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [LOOKUPSWITCH](./-l-o-o-k-u-p-s-w-i-t-c-h.md)
+---
+title: LOOKUPSWITCH - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [LOOKUPSWITCH](./-l-o-o-k-u-p-s-w-i-t-c-h.html)
 
 # LOOKUPSWITCH
 
-`val LOOKUPSWITCH: `[`LookupSwitchInsnQuery`](-lookup-switch-insn-query/index.md)
+`val LOOKUPSWITCH: `[`LookupSwitchInsnQuery`](-lookup-switch-insn-query/index.html)
 
-Creates a [LookupSwitchInsnQuery](-lookup-switch-insn-query/index.md) filter matching the [Opcode.LOOKUPSWITCH](#) instruction.
+Creates a [LookupSwitchInsnQuery](-lookup-switch-insn-query/index.html) filter matching the [Opcode.LOOKUPSWITCH](#) instruction.
 

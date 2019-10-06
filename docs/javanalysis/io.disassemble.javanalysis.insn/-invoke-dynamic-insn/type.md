@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [InvokeDynamicInsn](index.md) / [type](./type.md)
+---
+title: InvokeDynamicInsn.type - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [InvokeDynamicInsn](index.html) / [type](./type.html)
 
 # type
 

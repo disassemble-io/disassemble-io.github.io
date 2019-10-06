@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [CtInsn](index.md) / [opname](./opname.md)
+---
+title: CtInsn.opname - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [CtInsn](index.html) / [opname](./opname.html)
 
 # opname
 

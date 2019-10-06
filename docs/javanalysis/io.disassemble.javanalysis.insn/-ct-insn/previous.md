@@ -1,8 +1,12 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [CtInsn](index.md) / [previous](./previous.md)
+---
+title: CtInsn.previous - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [CtInsn](index.html) / [previous](./previous.html)
 
 # previous
 
-`var previous: `[`CtInsn`](index.md)`?`
+`var previous: `[`CtInsn`](index.html)`?`
 
-The [CtInsn](index.md) that appears before this instruction.
+The [CtInsn](index.html) that appears before this instruction.
 

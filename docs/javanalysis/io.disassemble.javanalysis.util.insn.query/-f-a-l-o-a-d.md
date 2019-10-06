@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [FALOAD](./-f-a-l-o-a-d.md)
+---
+title: FALOAD - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [FALOAD](./-f-a-l-o-a-d.html)
 
 # FALOAD
 
-`val FALOAD: `[`CtInsnQuery`](-ct-insn-query/index.md)
+`val FALOAD: `[`CtInsnQuery`](-ct-insn-query/index.html)
 
-Creates an [InsnQuery](-insn-query/index.md) filter matching the [Opcode.FALOAD](#) instruction.
+Creates an [InsnQuery](-insn-query/index.html) filter matching the [Opcode.FALOAD](#) instruction.
 

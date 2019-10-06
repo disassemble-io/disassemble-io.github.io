@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [LdcInsn](index.md) / [setUtf8](./set-utf8.md)
+---
+title: LdcInsn.setUtf8 - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [LdcInsn](index.html) / [setUtf8](./set-utf8.html)
 
 # setUtf8
 

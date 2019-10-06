@@ -1,8 +1,12 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [MultiANewArrayInsn](./index.md)
+---
+title: MultiANewArrayInsn - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [MultiANewArrayInsn](./index.html)
 
 # MultiANewArrayInsn
 
-`class MultiANewArrayInsn : `[`TypeInsn`](../-type-insn/index.md)
+`class MultiANewArrayInsn : `[`TypeInsn`](../-type-insn/index.html)
 
 A class representing a multianewarray instruction.
 
@@ -14,18 +18,13 @@ A class representing a multianewarray instruction.
 
 ### Constructors
 
-| Name | Summary |
-|---|---|
-| [&lt;init&gt;](-init-.md) | `MultiANewArrayInsn(owner: CtMethod, index: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`)`<br>A class representing a multianewarray instruction. |
+| [&lt;init&gt;](-init-.html) | `MultiANewArrayInsn(owner: CtMethod, index: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`)`<br>A class representing a multianewarray instruction. |
 
 ### Properties
 
-| Name | Summary |
-|---|---|
-| [dimensions](dimensions.md) | `val dimensions: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)<br>How many dimensions within this [MultiANewArrayInsn](./index.md). |
+| [dimensions](dimensions.html) | `val dimensions: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)<br>How many dimensions within this [MultiANewArrayInsn](./index.html). |
 
 ### Inherited Properties
 
-| Name | Summary |
-|---|---|
-| [type](../-type-insn/type.md) | `var type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The type of this [TypeInsn](../-type-insn/index.md). |
+| [type](../-type-insn/type.html) | `var type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The type of this [TypeInsn](../-type-insn/index.html). |
+

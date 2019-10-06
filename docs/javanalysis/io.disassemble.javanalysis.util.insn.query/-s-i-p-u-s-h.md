@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [SIPUSH](./-s-i-p-u-s-h.md)
+---
+title: SIPUSH - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [SIPUSH](./-s-i-p-u-s-h.html)
 
 # SIPUSH
 
-`val SIPUSH: `[`IntInsnQuery`](-int-insn-query/index.md)
+`val SIPUSH: `[`IntInsnQuery`](-int-insn-query/index.html)
 
-Creates an [IntInsnQuery](-int-insn-query/index.md) filter matching the [Opcode.SIPUSH](#) instruction.
+Creates an [IntInsnQuery](-int-insn-query/index.html) filter matching the [Opcode.SIPUSH](#) instruction.
 

@@ -1,8 +1,12 @@
-[javanalysis](../index.md) / [io.disassemble.javanalysis.util.insn.query](index.md) / [LSTORE](./-l-s-t-o-r-e.md)
+---
+title: LSTORE - javanalysis
+---
+
+[javanalysis](../index.html) / [io.disassemble.javanalysis.util.insn.query](index.html) / [LSTORE](./-l-s-t-o-r-e.html)
 
 # LSTORE
 
-`val LSTORE: `[`VarInsnQuery`](-var-insn-query/index.md)
+`val LSTORE: `[`VarInsnQuery`](-var-insn-query/index.html)
 
-Creates a [VarInsnQuery](-var-insn-query/index.md) filter matching the [Opcode.LSTORE](#) instruction.
+Creates a [VarInsnQuery](-var-insn-query/index.html) filter matching the [Opcode.LSTORE](#) instruction.
 

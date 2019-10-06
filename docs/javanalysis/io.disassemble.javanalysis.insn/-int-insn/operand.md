@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [IntInsn](index.md) / [operand](./operand.md)
+---
+title: IntInsn.operand - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [IntInsn](index.html) / [operand](./operand.html)
 
 # operand
 

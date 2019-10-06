@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.flow](../index.md) / [javassist.bytecode.analysis.ControlFlow.Block](index.md) / [endIndex](./end-index.md)
+---
+title: endIndex - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.flow](../index.html) / [javassist.bytecode.analysis.ControlFlow.Block](index.html) / [endIndex](./end-index.html)
 
 # endIndex
 

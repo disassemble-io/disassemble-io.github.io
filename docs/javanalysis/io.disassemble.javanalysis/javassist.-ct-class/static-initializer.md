@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis](../index.md) / [javassist.CtClass](index.md) / [staticInitializer](./static-initializer.md)
+---
+title: staticInitializer - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis](../index.html) / [javassist.CtClass](index.html) / [staticInitializer](./static-initializer.html)
 
 # staticInitializer
 

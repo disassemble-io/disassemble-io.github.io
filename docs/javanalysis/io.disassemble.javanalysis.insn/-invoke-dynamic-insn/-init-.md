@@ -1,4 +1,8 @@
-[javanalysis](../../index.md) / [io.disassemble.javanalysis.insn](../index.md) / [InvokeDynamicInsn](index.md) / [&lt;init&gt;](./-init-.md)
+---
+title: InvokeDynamicInsn.<init> - javanalysis
+---
+
+[javanalysis](../../index.html) / [io.disassemble.javanalysis.insn](../index.html) / [InvokeDynamicInsn](index.html) / [&lt;init&gt;](./-init-.html)
 
 # &lt;init&gt;
 
