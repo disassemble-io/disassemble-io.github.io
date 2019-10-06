@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>CtClassScanner.scanClassFile - javanalysis</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">javanalysis</a>&nbsp;/&nbsp;<a href="../index.html">io.disassemble.javanalysis.util</a>&nbsp;/&nbsp;<a href="index.html">CtClassScanner</a>&nbsp;/&nbsp;<a href="./scan-class-file.html">scanClassFile</a><br/>
+<br/>
+<h1>scanClassFile</h1>
+<a name="io.disassemble.javanalysis.util.CtClassScanner$scanClassFile(kotlin.String, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))"></a>
+<code><span class="keyword">fun </span><span class="identifier">scanClassFile</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanClassFile(kotlin.String, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/path">path</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanClassFile(kotlin.String, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/predicate">predicate</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html"><span class="identifier">Predicate</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanClassFile(kotlin.String, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/consumer">consumer</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html"><span class="identifier">Consumer</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Applies the given <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html">Predicate</a> and <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html">Consumer</a> against the class file.</p>
+<h3>Parameters</h3>
+<p><a name="path"></a>
+<code>path</code> - The path of the .class file to act upon.</p>
+<p><a name="predicate"></a>
+<code>predicate</code> - A filter for which <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a> should have the given <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html">Consumer</a> ran on it.</p>
+<p><a name="consumer"></a>
+<code>consumer</code> - The consumer to run on each of the <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a> within the matching <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a>.</p>
+<a name="io.disassemble.javanalysis.util.CtClassScanner$scanClassFile(kotlin.String)"></a>
+<code><span class="keyword">fun </span><span class="identifier">scanClassFile</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanClassFile(kotlin.String)/path">path</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">?</span></code>
+<p>Reads the given .class file path into a <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a> object.</p>
+<h3>Parameters</h3>
+<p><a name="path"></a>
+<code>path</code> - The path of the .class file to read.</p>
+<p><strong>Return</strong><br/>
+A <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a> read from the given .class file.</p>
+</BODY>
+</HTML>

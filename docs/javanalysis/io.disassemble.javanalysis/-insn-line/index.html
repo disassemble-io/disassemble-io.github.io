@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>InsnLine - javanalysis</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">javanalysis</a>&nbsp;/&nbsp;<a href="../index.html">io.disassemble.javanalysis</a>&nbsp;/&nbsp;<a href="./index.html">InsnLine</a><br/>
+<br/>
+<h1>InsnLine</h1>
+<code><span class="keyword">class </span><span class="identifier">InsnLine</span></code>
+<p>A structure representing a line of code.
+Acts as a <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a> of <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a>.</p>
+<h3>Parameters</h3>
+<p><a name="line"></a>
+<code>line</code> - The line that the accompanied <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a> appear on.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">InsnLine</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.InsnLine$<init>(kotlin.Int)/line">line</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span></code>
+<p>A structure representing a line of code.
+Acts as a <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a> of <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="line.html">line</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">line</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>The line that the accompanied <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a> appear on.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="list.html">list</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">list</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html"><span class="identifier">CtInsn</span></a><span class="symbol">&gt;</span></code>
+<p>The <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a> that appear on this line.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="add.html">add</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">add</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.InsnLine$add(io.disassemble.javanalysis.insn.CtInsn)/insn">insn</span><span class="symbol">:</span>&nbsp;<a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html"><span class="identifier">CtInsn</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Adds the given <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a> to this line.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="find.html">find</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">find</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="io.disassemble.javanalysis.InsnLine$find(kotlin.Array((io.disassemble.javanalysis.util.insn.query.InsnQuery((io.disassemble.javanalysis.insn.CtInsn)))))/queries">queries</span><span class="symbol">:</span>&nbsp;<a href="../../io.disassemble.javanalysis.util.insn.query/-insn-query/index.html"><span class="identifier">InsnQuery</span></a><span class="symbol">&lt;</span><span class="keyword">out</span>&nbsp;<a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html"><span class="identifier">CtInsn</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html"><span class="identifier">Map</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html"><span class="identifier">CtInsn</span></a><span class="symbol">&gt;</span></code>
+<p>Searches for the given queries within <a href="list.html">list</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

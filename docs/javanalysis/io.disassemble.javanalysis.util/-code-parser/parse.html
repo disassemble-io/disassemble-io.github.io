@@ -1,0 +1,33 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>CodeParser.parse - javanalysis</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">javanalysis</a>&nbsp;/&nbsp;<a href="../index.html">io.disassemble.javanalysis.util</a>&nbsp;/&nbsp;<a href="index.html">CodeParser</a>&nbsp;/&nbsp;<a href="./parse.html">parse</a><br/>
+<br/>
+<h1>parse</h1>
+<a name="io.disassemble.javanalysis.util.CodeParser$parse(javassist.CtMethod)"></a>
+<code><span class="keyword">fun </span><span class="identifier">parse</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CodeParser$parse(javassist.CtMethod)/method">method</span><span class="symbol">:</span>&nbsp;<a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html"><span class="identifier">CtInsn</span></a><span class="symbol">&gt;</span></code>
+<p>Parses the bytecode instructions of the given <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a>.</p>
+<h3>Parameters</h3>
+<p><a name="method"></a>
+<code>method</code> - The <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a> to parse.</p>
+<p><strong>Return</strong><br/>
+A list of <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a> contained within the given <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a>.</p>
+<a name="io.disassemble.javanalysis.util.CodeParser$parse(javassist.CtMethod, javassist.bytecode.CodeIterator, kotlin.Int)"></a>
+<code><span class="keyword">fun </span><span class="identifier">parse</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CodeParser$parse(javassist.CtMethod, javassist.bytecode.CodeIterator, kotlin.Int)/method">method</span><span class="symbol">:</span>&nbsp;<a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CodeParser$parse(javassist.CtMethod, javassist.bytecode.CodeIterator, kotlin.Int)/iter">iter</span><span class="symbol">:</span>&nbsp;<a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/bytecode/CodeIterator.html"><span class="identifier">CodeIterator</span></a><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CodeParser$parse(javassist.CtMethod, javassist.bytecode.CodeIterator, kotlin.Int)/pos">pos</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html"><span class="identifier">CtInsn</span></a></code>
+<p>Gets a string representation of the bytecode instruction at the specified
+position.</p>
+<h3>Parameters</h3>
+<p><a name="method"></a>
+<code>method</code> - The <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a> to parse from.</p>
+<p><a name="iter"></a>
+<code>iter</code> - The <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a>'s <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/bytecode/CodeIterator.html">CodeIterator</a>.</p>
+<p><a name="pos"></a>
+<code>pos</code> - The position of the <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a> to parse.</p>
+<p><strong>Return</strong><br/>
+The <a href="../../io.disassemble.javanalysis.insn/-ct-insn/index.html">CtInsn</a> at the given position.</p>
+</BODY>
+</HTML>

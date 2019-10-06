@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>CtClassScanner - javanalysis</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">javanalysis</a>&nbsp;/&nbsp;<a href="../index.html">io.disassemble.javanalysis.util</a>&nbsp;/&nbsp;<a href="./index.html">CtClassScanner</a><br/>
+<br/>
+<h1>CtClassScanner</h1>
+<code><span class="keyword">object </span><span class="identifier">CtClassScanner</span></code>
+<p>A utility class used for parsing a class structure into a <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a> structure.</p>
+<p><strong>Author</strong><br/>
+Tyler Sedlar</p>
+<p><strong>Since</strong><br/>
+5/19/2017</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="scan-class-file.html">scanClassFile</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">scanClassFile</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanClassFile(kotlin.String, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/path">path</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanClassFile(kotlin.String, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/predicate">predicate</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html"><span class="identifier">Predicate</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanClassFile(kotlin.String, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/consumer">consumer</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html"><span class="identifier">Consumer</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Applies the given <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html">Predicate</a> and <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html">Consumer</a> against the class file.</p>
+<code><span class="keyword">fun </span><span class="identifier">scanClassFile</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanClassFile(kotlin.String)/path">path</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">?</span></code>
+<p>Reads the given .class file path into a <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a> object.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="scan-class-path.html">scanClassPath</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">scanClassPath</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanClassPath(java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/predicate">predicate</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html"><span class="identifier">Predicate</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanClassPath(java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/consumer">consumer</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html"><span class="identifier">Consumer</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Scans the class path for matching <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="scan-directory.html">scanDirectory</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">scanDirectory</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanDirectory(java.io.File, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/directory">directory</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html"><span class="identifier">File</span></a><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanDirectory(java.io.File, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/predicate">predicate</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html"><span class="identifier">Predicate</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanDirectory(java.io.File, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/consumer">consumer</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html"><span class="identifier">Consumer</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Scans the given directory for matching <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a>.</p>
+<code><span class="keyword">fun </span><span class="identifier">scanDirectory</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanDirectory(java.io.File)/directory">directory</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html"><span class="identifier">File</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html"><span class="identifier">Map</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">&gt;</span></code>
+<p>Scans the given directory for matching <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a>, putting it within a map.
+The map key matches <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html#getName()">CtClass.getName</a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="scan-input-stream.html">scanInputStream</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">scanInputStream</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanInputStream(java.io.InputStream, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/inputStream">inputStream</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html"><span class="identifier">InputStream</span></a><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanInputStream(java.io.InputStream, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/predicate">predicate</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html"><span class="identifier">Predicate</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanInputStream(java.io.InputStream, java.util.function.Predicate((javassist.CtClass)), java.util.function.Consumer((javassist.CtMethod)))/consumer">consumer</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html"><span class="identifier">Consumer</span></a><span class="symbol">&lt;</span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Reads the <a href="https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html">InputStream</a> into a <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a> object.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="scan-jar.html">scanJar</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">scanJar</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.util.CtClassScanner$scanJar(java.io.File)/file">file</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html"><span class="identifier">File</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html"><span class="identifier">Map</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">,</span>&nbsp;<a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html"><span class="identifier">CtClass</span></a><span class="symbol">&gt;</span></code>
+<p>Reads the given jar <a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a> path into a <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a> of <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html">CtClass</a>, where the key is <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtClass.html#getName()">CtClass.getName</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

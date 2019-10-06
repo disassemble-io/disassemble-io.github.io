@@ -1,0 +1,174 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>IntInsn - javanalysis</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">javanalysis</a>&nbsp;/&nbsp;<a href="../index.html">io.disassemble.javanalysis.insn</a>&nbsp;/&nbsp;<a href="./index.html">IntInsn</a><br/>
+<br/>
+<h1>IntInsn</h1>
+<code><span class="keyword">class </span><span class="identifier">IntInsn</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../-ct-insn/index.html"><span class="identifier">CtInsn</span></a></code>
+<p>A class representing a numeric instruction.</p>
+<h3>Parameters</h3>
+<p><a name="owner"></a>
+<code>owner</code> - The <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a> that this instruction is a part of.</p>
+<p><a name="index"></a>
+<code>index</code> - The index of this instruction in <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a>.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">IntInsn</span><span class="symbol">(</span><span class="identifier" id="io.disassemble.javanalysis.insn.IntInsn$<init>(javassist.CtMethod, kotlin.Int)/owner">owner</span><span class="symbol">:</span>&nbsp;<a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a><span class="symbol">, </span><span class="identifier" id="io.disassemble.javanalysis.insn.IntInsn$<init>(javassist.CtMethod, kotlin.Int)/index">index</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span></code>
+<p>A class representing a numeric instruction.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="operand.html">operand</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">operand</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>The value of this instruction.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inherited Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../-ct-insn/--index--.html">index</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">index</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>The index of this instruction in <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/line.html">line</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">line</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>The line this instruction appears on.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/next.html">next</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">next</span><span class="symbol">: </span><a href="../-ct-insn/index.html"><span class="identifier">CtInsn</span></a><span class="symbol">?</span></code>
+<p>The <a href="../-ct-insn/index.html">CtInsn</a> that appears after this instruction.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/opcode.html">opcode</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">opcode</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>The opcode of this instruction.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/opname.html">opname</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">opname</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>The name of this instruction, appearing within <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/bytecode/Mnemonic.html#OPCODE">Mnemonic.OPCODE</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/owner.html">owner</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">owner</span><span class="symbol">: </span><a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html"><span class="identifier">CtMethod</span></a></code>
+<p>The <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a> that this instruction is a part of.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/position.html">position</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">position</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>The position of this instruction within its <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/previous.html">previous</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">previous</span><span class="symbol">: </span><a href="../-ct-insn/index.html"><span class="identifier">CtInsn</span></a><span class="symbol">?</span></code>
+<p>The <a href="../-ct-insn/index.html">CtInsn</a> that appears before this instruction.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/relative-line.html">relativeLine</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">relativeLine</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>The line this instruction appears on, relative to its <a href="https://static.javadoc.io/org.javassist/javassist/3.26.0-GA/javassist/CtMethod.html">CtMethod</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/verbose.html">verbose</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">verbose</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>A <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> representation of this instruction.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inherited Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../-ct-insn/has-next.html">hasNext</a></p>
+</td>
+<td>
+<code><span class="keyword">operator</span> <span class="keyword">fun </span><span class="identifier">hasNext</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Checks if the next <a href="../-ct-insn/index.html">CtInsn</a> is valid.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/has-previous.html">hasPrevious</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">hasPrevious</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Checks if the previous <a href="../-ct-insn/index.html">CtInsn</a> is valid.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-ct-insn/to-string.html">toString</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">toString</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>A basic <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a> representation of this instruction.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
